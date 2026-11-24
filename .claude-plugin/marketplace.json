@@ -1,0 +1,11 @@
+{
+  "name": "pixel-weather",
+  "owner": { "name": "Maximeistern" },
+  "plugins": [
+    {
+      "name": "pixel-weather",
+      "source": "./",
+      "description": "Turns the background and colors into a pixel-art scene of the weather outside, with rain sound"
+    }
+  ]
+}

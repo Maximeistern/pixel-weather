@@ -1,0 +1,17 @@
+{
+  "name": "pixel-weather",
+  "version": "0.1.0",
+  "description": "Turns the background and colors into a pixel-art scene of the weather outside, with rain sound, refreshed every 15 minutes from Open-Meteo",
+  "author": { "name": "Maximeistern" },
+  "license": "MIT",
+  "repository": "https://github.com/Maximeistern/pixel-weather",
+  "userConfig": {
+    "city": {
+      "type": "string",
+      "title": "City",
+      "description": "The city whose weather the scene shows, such as Göteborg, or Lund, Skåne where the name is shared. /ort in a session changes it too.",
+      "required": false,
+      "default": "Stockholm"
+    }
+  }
+}
